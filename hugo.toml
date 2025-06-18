@@ -1,0 +1,119 @@
+languageCode = "en-us"
+title = "The Ishraq Dossier"
+theme = "hugo-profile"
+
+[caches]
+	[caches.images]
+		dir = ':cacheDir/images'
+
+[params.theme]
+disableThemeToggle = true
+defaultTheme = "dark"
+
+[[Menus.main]]
+identifier = "briefs"
+name = "Briefs"
+title = "briefs"
+url = "/briefs"
+	textAlign = "left"
+
+	[params.navbar]
+	align = "ms-auto"
+	brandName = "The Ishraq Dossier"
+	disableSearch = true
+
+	[params.navbar.stickyNavBar]
+	enable = true
+	showOnScrollUp = true
+
+	[params.navbar.menus]
+	disableAbout = false
+	disableExperience = false
+	disableEducation = false
+	disableProjects = false
+	disableAchievements = false
+	disableContact = false
+
+	[params.hero]
+	enable = true
+	title = "The Ishraq Dossier"
+	subtitle = "Through The Looking Glass"
+	image = "/images/wall.jpg"
+
+	[params.about]
+	enable = true
+	titlte = "About Me"
+	content = """
+	BBA undergrad at Bangladesh University of Professionals.
+	Strategy Analyst	
+	"""
+
+	[params.about.skills]
+	enable = true
+	title = "Interests"
+	items = ["Contemporary South Asia", "Geopolitics", "Business Analytics", "Theology"]
+
+	[params.education]
+	enable = true
+	index = false
+
+		[[params.education.items]]
+		title = "Bachelor of Business Administration"
+		date = "2025 - 2029"
+			[params.education.items.school]
+			name = "Bangladesh University of Professionals"
+			url = "https://bup.edu.bd/"
+
+		[[params.education.items]]
+		title = "Higher School Certificate"
+		date = "2024"
+		GPA = "5.0 out of 5.0"
+		content = """
+		Highest marks in the Chittagong Board
+		"""
+
+			[params.education.items.school]
+			name = "Faujdarhat Cadet College"
+			url = "https://fcc.army.mil.bd/"
+
+		[[params.education.items]]
+		title = "Secondary School Certificate"
+		date = "2022"
+		GPA = "5.0 out of 5.0"
+		content = """
+		8th highest marks in the Chittagong Board
+		"""
+
+			[params.education.items.school]
+			name = "Faujdarhat Cadet College"
+			url = "https://fcc.army.mil.bd/"
+
+		[params.contact]
+		enable = true
+		btnName = "Mail me"
+		btnLink = "mailto:ishraq3360@gmail.com"
+
+[params.footer.socialNetworks]
+github = "https://github.com/Fatin-Ishraq60"
+facebook = "https://facebook.com/FatinMDIshraq"
+
+	[params.listPages]
+	disableFeaturedImage = false
+
+	[params.singlePages]
+	socialShare = true
+
+		[params.singlePages.readTiem]
+		enable = true
+		content = "min read"
+
+		[params.singlePages.scrollprogress]
+		enable = true
+
+		[params.singlePages.tags]
+		openInNewTab = true
+	[params.terms]
+	read = "Read"
+	toc = "Table of Contents"
+	copyright = "All rights reserved"
+	pageNotFound = "Page not found"
