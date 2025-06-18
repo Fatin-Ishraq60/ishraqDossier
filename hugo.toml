@@ -1,6 +1,7 @@
 languageCode = "en-us"
 title = "The Ishraq Dossier"
 theme = "hugo-profile"
+baseURL = "https://fatin-ishraq60.github.io/ishraqDossier/"
 
 [caches]
 	[caches.images]
